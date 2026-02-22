@@ -978,6 +978,7 @@ body {
         top: auto;
         text-align: center;
         margin: 8px 0;
+        display: none !important;
     }
 
     .content__letter .right .love__img img {
@@ -1063,7 +1064,7 @@ body {
     .right .balloon_two {
         position: absolute;
         top: 85px;
-        right: -55px;
+        right: -35px;
         z-index: -1;
     }
     
