@@ -1063,7 +1063,7 @@ body {
     .right .balloon_two {
         position: absolute;
         top: 85px;
-        right: -50px;
+        right: -45px;
         z-index: -1;
     }
     
