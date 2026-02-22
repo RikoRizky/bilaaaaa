@@ -630,7 +630,7 @@ function setupGiftBox() {
         gift.classList.add("hidden");
         // Redirect to birthday page after animation
         setTimeout(function() {
-          window.location.href = "/home.html";
+          window.location.href = "home.html";
         }, 300);
       }
     });
