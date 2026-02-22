@@ -630,7 +630,9 @@ function setupGiftBox() {
         gift.classList.add("hidden");
         // Redirect to birthday page after animation
         setTimeout(function() {
-          window.location.href = "home.html";
+          // Mengambil path folder saat ini secara otomatis
+const currentPath = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/'));
+window.location.href = currentPath + "/home.html";
         }, 300);
       }
     });
